@@ -1,0 +1,111 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            tatw46nd7yc009um6t8jtkl0l3e149k5:
+                args:
+                    - --dataset
+                    - mind-news
+                codePath: KGIN/main.py
+                codePathLocal: main.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "11.6"
+                disk:
+                    /:
+                        total: "984692498432"
+                        used: "86124601344"
+                email: takumi_k@st.cs.kumamoto-u.ac.jp
+                executable: /nas.dbms/takumi/.pyenv/versions/kg/bin/python
+                git:
+                    commit: afeca8a76d18728d413fa4aac9a3a2a3e80496cb
+                    remote: https://github.com/takumikengo/KG-pruning.git
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-6b2f6327-5ca6-c245-0c28-4c268d473afa
+                host: endeavour.dbms
+                memory:
+                    total: "134975254528"
+                os: Linux-5.13.0-44-generic-x86_64-with-glibc2.31
+                program: /nas.dbms/takumi/KGPR/KGIN/main.py
+                python: CPython 3.10.14
+                root: /nas.dbms/takumi/KGPR/KGIN
+                startedAt: "2026-03-24T06:11:04.157874Z"
+                writerId: tatw46nd7yc009um6t8jtkl0l3e149k5
+        m: []
+        python_version: 3.10.14
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 13
+                - 16
+            "4": 3.10.14
+            "5": 0.25.1
+            "12": 0.25.1
+            "13": linux-x86_64
+Ks:
+    value: '[5, 10, 20]'
+batch_size:
+    value: 1024
+batch_test_flag:
+    value: true
+channel:
+    value: 64
+context_hops:
+    value: 3
+cuda:
+    value: true
+data_path:
+    value: ../data/
+dataset:
+    value: mind-news
+dim:
+    value: 64
+epoch:
+    value: 2000
+gpu_id:
+    value: 0
+ind:
+    value: distance
+inverse_r:
+    value: true
+kg_file:
+    value: kg_final
+l2:
+    value: 1e-05
+lr:
+    value: 0.0001
+mess_dropout:
+    value: true
+mess_dropout_rate:
+    value: 0.1
+n_factors:
+    value: 4
+node_dropout:
+    value: true
+node_dropout_rate:
+    value: 0.5
+out_dir:
+    value: ./weights/
+save:
+    value: false
+seed:
+    value: 2023
+sim_regularity:
+    value: 0.0001
+test_batch_size:
+    value: 1024
+test_flag:
+    value: part
