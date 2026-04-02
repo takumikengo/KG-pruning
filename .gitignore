@@ -210,8 +210,7 @@ __marimo__/
 data/
 weights/
 mind_original/
+saved_kg/
 *.pt
 *.tsv
 *.ckpt
-
-saved_kg/
